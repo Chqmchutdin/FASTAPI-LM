@@ -1,0 +1,6 @@
+services:
+  api-samchutdin:
+    build: .
+    ports:
+      - "8313:8000"
+    restart: always
